@@ -4,7 +4,7 @@ CREATE TABLE Grupo (
 );
 
 CREATE TABLE Item_almoxarifado (
-    id_item INTEGER PRIMARY KEY AUTOINCREMENT,
+    id_item INTEGER PRIMARY KEY ,
     codigo_item INTEGER NOT NULL,
     denominacao_item TEXT NOT NULL,
     unidade_medida TEXT NOT NULL,
