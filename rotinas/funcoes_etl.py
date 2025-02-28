@@ -95,10 +95,10 @@ def carregamento(grupo,item,path_bd):
 def visualizacao_final(path_bd):
     """Exibe uma demostracao organizada da tabela Grupo do Banco de dados
        incentiva a continuar fazendo consultas com o Sqlite"""
+    
+    print("\033[33;40m -- PROGRAMA FINALIZADO COM SUCESSO -- \033[0m")
     conx=conexao(path_bd)
     cursor=conx.cursor()
-    print("\033[33;40m -- PROGRAMA FINALIZADO COM SUCESSO -- \033[0m")
-
     cursor.execute("SELECT * FROM Grupo;")
     dados = cursor.fetchall()
     colunas = [desc[0] for desc in cursor.description]
