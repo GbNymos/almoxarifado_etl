@@ -50,7 +50,7 @@ python main.py
     ```
 
 
-## Autores
+## Autora
 - [@Gabriele sant](https://github.com/GbNymos)
 
 
