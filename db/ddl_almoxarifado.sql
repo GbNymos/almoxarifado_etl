@@ -9,5 +9,5 @@ CREATE TABLE Item_almoxarifado (
     denominacao_item TEXT NOT NULL,
     unidade_medida TEXT NOT NULL,
     codigo_grupo INTEGER,
-    FOREIGN KEY (codigo_grupo) REFERENCES Grupo(codigo_grupo)
+    FOREIGN KEY (codigo_grupo) REFERENCES Grupo(codigo_grupo) ON DELETE CASCADE
 );
