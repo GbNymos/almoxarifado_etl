@@ -51,7 +51,7 @@ python main.py
 
 
 ## Autora
-- [@Gabriele sant](https://github.com/GbNymos)
+- [@Gabriele sant](https://www.linkedin.com/in/gabriele-oliveira-a77a9a289)
 
 
 
